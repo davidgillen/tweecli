@@ -17,12 +17,13 @@ Include the details from your newly created twitter app in the rc file.
 It should look like the following.
 
 
-[tweecli]
-token: insert-access-token-here
-secret: insert-access-token-secret-here 
+    [tweecli]
+    token: insert-access-token-here
+    secret: insert-access-token-secret-here 
 
-consumer_key: insert-consumer-key-here
-consumer_secret: insert-consumer-secret-here 
+    consumer_key: insert-consumer-key-here
+    consumer_secret: insert-consumer-secret-here 
+
 
 Finally go to the settings tab for your application and change the
 Application Type to 'Read and Write', note this change may take a minute
